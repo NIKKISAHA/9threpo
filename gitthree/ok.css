@@ -1,0 +1,52 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    height: 190px;
+    width: 40%;
+   background-color: rgb(7, 216, 231);
+    margin-top: 6rem;
+    border-radius: 50%;
+    border: 1rem rgb(7, 216, 231) solid;
+    transition: all 0.2s linear;
+    padding: .3rem;
+}
+.border:hover{
+    
+    cursor: pointer;
+    height: 190px;
+    width: 40%;
+   background-color: white;
+    margin-top: 6rem;
+    border-radius: 0%;
+    border:1rem rgb(7, 216, 231) solid;
+
+    
+}
+.square{
+
+    height: 195px;
+    width: 100%;
+   background-color: rgb(7, 216, 231);
+    
+    border-radius: 1rem;
+    position: relative;
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem;
+    
+ 
+}
+.para{
+    color: rgb(7, 216, 231);
+    transform: rotate(-45deg);
+   
+}
+.border:hover p{
+   box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+   color: black;
+}

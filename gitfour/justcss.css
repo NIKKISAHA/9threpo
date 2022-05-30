@@ -1,0 +1,85 @@
+           .main{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               
+           }
+           .box{
+            display: flex;
+
+               align-items:center ;
+
+               height: 190px;
+               width: 190px;
+               background-color: blue;
+
+              margin: 6rem;
+             
+              
+           }
+           .ball{
+            height: 2rem;
+               width: 2rem;
+               background-color: chartreuse;
+               border-radius: 50%;
+               margin:1.5rem;
+             
+              position: absolute;
+              animation-name: ballAnimation;
+              animation-duration: 3s;
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+
+           }
+
+           @keyframes ballAnimation{
+               100%{
+               transform: translate(120px,0px);
+               }
+           }
+           .ball1{
+            height: 2rem;
+               width: 2rem;
+               background-color: chartreuse;
+               border-radius: 50%;
+               margin:1.5rem;
+              
+             
+              position: absolute;
+              animation-name: ballAnimation1;
+              animation-duration: 3s;
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+             animation-delay: 80ms;
+
+           }
+
+           @keyframes ballAnimation1{
+               100%{
+               transform: translate(120px,0px);
+               }
+           }
+           .ball2{
+            height: 2rem;
+               width: 2rem;
+               background-color: chartreuse;
+
+           
+               border-radius: 50%;
+               margin:1.5rem;
+             
+              position: absolute;
+              animation-name: ballAnimation2;
+              animation-duration: 3s;
+             animation-iteration-count: infinite;
+             animation-direction: alternate;
+             animation-delay: 90ms;
+
+           }
+
+           @keyframes ballAnimation2{
+               100%{
+               transform: translate(120px,0px);
+               }
+           }
+          
